@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://doberman-pinscher-zone.github.io/sitemap.xml

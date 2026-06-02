@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Doberman Bloat Risk Statistics</title>
-<meta name="description" content="📊 Investment insight 💰 Cost-benefit analysis 🛡️ Prevention ROI">
+<title>Doberman Bloat: 42% Fatal Risk — What Vets Won't Tell You</title>
+<meta name="description" content="Discover why 42% of dobermans with bloat don't survive and the critical signs to catch within hours. Learn what emergency vets reveal about prevention now." />
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://doberman-pinscher-zone.github.io/doberman-bloat-risk-statistics.html">
 <style>
@@ -89,17 +89,26 @@
 <section class="hero">
   <div class="hero-inner">
     <p>Doberman Pinscher owner notes</p>
-    <h1>Doberman Bloat Risk Statistics</h1>
+    <h1>Doberman Bloat: 42% Fatal Risk — What Vets Won't Tell You</h1>
     <p class="lead">📊 Investment insight 💰 Cost-benefit analysis 🛡️ Prevention ROI</p>
   </div>
 </section>
 <div class="layout">
   <article class="article">
+    
+    
     <nav class="article-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/blog.html">Blog</a><span>›</span><span aria-current="page">Doberman Bloat Risk Statistics</span></nav>
     <p class="meta">Published: 2026-05-25 · Doberman Pinscher Zone</p>
     <article>
     
     <p><span class="stat-badge">📊 Investment insight</span> <span class="stat-badge">💰 Cost-benefit analysis</span> <span class="stat-badge">🛡️ Prevention ROI</span></p>
+
+<figure style="margin: 22px 0; text-align: center;">
+  <a href="https://www.reddit.com/r/DobermanPinscher/comments/1tlnw2k/my_3_year_old_got_tired_on_her_walk_i_had_to_be_a/" target="_blank" rel="noopener noreferrer">
+    <img src="https://i.redd.it/1062pc22ix2h1.jpeg" alt="My 3 year old got tired on her walk. I had to be a good dad." style="max-width:100%; border-radius:10px; box-shadow: 0 2px 12px rgba(0,0,0,0.15);">
+  </a>
+  <figcaption style="font-size:0.85rem; color:#6b7280; margin-top:8px;">Photo by <a href="https://www.reddit.com/r/DobermanPinscher/comments/1tlnw2k/my_3_year_old_got_tired_on_her_walk_i_had_to_be_a/" target="_blank" rel="noopener noreferrer">u//u/grimthehero05</a> on <a href="https://www.reddit.com/r/dobermanpinscher/" target="_blank" rel="noopener noreferrer">r/dobermanpinscher</a> (0 upvotes)</figcaption>
+</figure>
 
     <p>When you bring a Doberman into your life, you're investing in loyalty, intelligence, and athleticism — but also in a breed with a <strong>historically high risk of gastric dilatation-volvulus (GDV)</strong>, commonly called bloat. This article breaks down the <strong>Doberman bloat risk statistics</strong> through a <em>price value</em> lens: what you spend on prevention versus the financial and emotional cost of emergency treatment. Every number here directly supports your <strong>return on investment</strong> in proactive care.</p>
 
@@ -220,7 +229,7 @@ Here are three emotionally-driven Calls to Action (CTAs) tailored to the high-st
       <input type="email" placeholder="Your email">
       <button>Get the notes</button>
     </section>
-<section class="sidebar-panel"><h3>More Doberman Pinscher Articles</h3><ul><li><a href="/doberman-dcm-symptoms.html">Doberman DCM Symptoms: Early Signs Owners Miss</a></li><li><a href="/doberman-von-willebrand-disease-prevalence.html">Doberman von Willebrand Disease Prevalence: Screening and Breeding Data</a></li></ul></section>
+    <section class="sidebar-panel"><h3>More Doberman Pinscher Articles</h3><ul><li><a href="/doberman-dcm-symptoms.html">Doberman DCM Symptoms: Early Signs Owners Miss</a></li><li><a href="/doberman-von-willebrand-disease-prevalence.html">Doberman von Willebrand Disease Prevalence: Screening and Breeding Data</a></li><li><a href="/how-much-exercise-does-a-doberman-need.html">How Much Exercise Does A Doberman Need</a></li></ul></section>
   </aside>
 </div>
 <footer class="footer">
@@ -229,5 +238,68 @@ Here are three emotionally-driven Calls to Action (CTAs) tailored to the high-st
     <span><a href="/privacy.html">Privacy</a> · <a href="/contact.html">Contact</a> · <a href="/sitemap.html">Sitemap</a></span>
   </div>
 </footer>
+
+<script>
+(function() {
+  var _ga4 = "";
+  var _site = "doberman-pinscher-zone.github.io";
+  var _article = "doberman-bloat-risk-statistics";
+  var _startTime = Date.now();
+  var _scrollMarks = {25: false, 50: false, 75: false, 100: false};
+
+  function _send(name, params) {
+    var data = Object.assign({page: _article, site: _site}, params);
+    if (_ga4 && typeof gtag === "function") {
+      gtag("event", name, data);
+    }
+    try {
+      var log = JSON.parse(localStorage.getItem("_ptrack") || "[]");
+      log.push({t: new Date().toISOString(), e: name, d: data});
+      if (log.length > 200) log = log.slice(-200);
+      localStorage.setItem("_ptrack", JSON.stringify(log));
+    } catch(e) {}
+  }
+
+  // Scroll depth
+  function _onScroll() {
+    var scrolled = window.scrollY + window.innerHeight;
+    var total = document.documentElement.scrollHeight;
+    var pct = Math.round((scrolled / total) * 100);
+    [25, 50, 75, 100].forEach(function(mark) {
+      if (!_scrollMarks[mark] && pct >= mark) {
+        _scrollMarks[mark] = true;
+        _send("scroll_depth", {depth: mark});
+      }
+    });
+  }
+  window.addEventListener("scroll", _onScroll, {passive: true});
+
+  // Time on page
+  function _sendTime() {
+    var secs = Math.round((Date.now() - _startTime) / 1000);
+    _send("time_on_page", {seconds: secs});
+  }
+  document.addEventListener("visibilitychange", function() {
+    if (document.hidden) _sendTime();
+  });
+  window.addEventListener("pagehide", _sendTime);
+
+  // Newsletter CTA
+  document.addEventListener("click", function(e) {
+    var btn = e.target.closest("button");
+    if (btn) {
+      var box = btn.closest(".sidebar-newsletter, [class*='newsletter']");
+      if (box) _send("newsletter_click", {label: btn.textContent.trim().slice(0, 40)});
+    }
+    var link = e.target.closest("a[href]");
+    if (link && !link.href.includes(window.location.hostname)) {
+      _send("outbound_click", {url: link.href.slice(0, 100)});
+    }
+  });
+
+  // Pageview
+  _send("article_view", {});
+})();
+</script>
 </body>
 </html>

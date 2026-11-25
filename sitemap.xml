@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://doberman-pinscher-zone.github.io/</loc><lastmod>2026-10-06</lastmod><priority>1.0</priority></url>
   <url><loc>https://doberman-pinscher-zone.github.io/blog.html</loc><lastmod>2026-10-06</lastmod><priority>0.5</priority></url>
-  <url><loc>https://doberman-pinscher-zone.github.io/care.html</loc><lastmod>2026-10-06</lastmod><priority>0.5</priority></url>
-  <url><loc>https://doberman-pinscher-zone.github.io/about.html</loc><lastmod>2026-10-06</lastmod><priority>0.5</priority></url>
-  <url><loc>https://doberman-pinscher-zone.github.io/contact.html</loc><lastmod>2026-10-06</lastmod><priority>0.5</priority></url>
-  <url><loc>https://doberman-pinscher-zone.github.io/privacy.html</loc><lastmod>2026-10-06</lastmod><priority>0.5</priority></url>
-  <url><loc>https://doberman-pinscher-zone.github.io/editorial-policy.html</loc><lastmod>2026-10-06</lastmod><priority>0.5</priority></url>
-  <url><loc>https://doberman-pinscher-zone.github.io/disclosure.html</loc><lastmod>2026-10-06</lastmod><priority>0.5</priority></url>
+  <url><loc>https://doberman-pinscher-zone.github.io/care.html</loc><lastmod>2026-10-04</lastmod><priority>0.5</priority></url>
+  <url><loc>https://doberman-pinscher-zone.github.io/about.html</loc><lastmod>2026-10-03</lastmod><priority>0.5</priority></url>
+  <url><loc>https://doberman-pinscher-zone.github.io/contact.html</loc><lastmod>2026-10-05</lastmod><priority>0.5</priority></url>
+  <url><loc>https://doberman-pinscher-zone.github.io/privacy.html</loc><lastmod>2026-10-04</lastmod><priority>0.5</priority></url>
+  <url><loc>https://doberman-pinscher-zone.github.io/editorial-policy.html</loc><lastmod>2026-10-03</lastmod><priority>0.5</priority></url>
+  <url><loc>https://doberman-pinscher-zone.github.io/disclosure.html</loc><lastmod>2026-10-05</lastmod><priority>0.5</priority></url>
   <url><loc>https://doberman-pinscher-zone.github.io/doberman-breeder-questions.html</loc><lastmod>2026-11-04</lastmod><priority>0.7</priority></url>
-  <url><loc>https://doberman-pinscher-zone.github.io/sitemap.html</loc><lastmod>2026-10-06</lastmod><priority>0.5</priority></url>
+  <url><loc>https://doberman-pinscher-zone.github.io/sitemap.html</loc><lastmod>2026-10-02</lastmod><priority>0.5</priority></url>
   <url><loc>https://doberman-pinscher-zone.github.io/how-much-exercise-does-a-doberman-need.html</loc><lastmod>2026-05-26</lastmod><priority>0.8</priority></url>
   <url>
     <loc>https://doberman-pinscher-zone.github.io/doberman-off-switch-settle-training.html</loc>
@@ -34,6 +34,11 @@
   <url>
     <loc>https://doberman-pinscher-zone.github.io/doberman-puppy-biting-timeline.html</loc>
     <lastmod>2026-11-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://doberman-pinscher-zone.github.io/how-to-fit-harness-on-doberman.html</loc>
+    <lastmod>2026-11-25</lastmod>
     <priority>0.8</priority>
   </url>
 </urlset>
